@@ -1,5 +1,8 @@
 # raf-ready
 
+[![npm version](https://badge.fury.io/js/raf-ready.svg)](https://badge.fury.io/js/raf-ready)
+[![Build Status](https://travis-ci.org/mshick/raf-ready.svg?branch=master)](https://travis-ci.org/mshick/raf-ready)
+
 Fire a callback when the DOM is ready. Prefers `requestAnimationFrame` and falls
 back to `document.readyState`.
 
