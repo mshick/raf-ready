@@ -1,0 +1,25 @@
+{
+  "name": "raf-ready",
+  "version": "1.0.0",
+  "description": "Tiny DOM ready using requestAnimationFrame first, falling back to readyState.",
+  "main": "raf-ready.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "keywords": [
+    "dom-ready",
+    "ready",
+    "ready-state",
+    "on-ready",
+    "dom",
+    "document-ready",
+    "request-animation-frame",
+    "pagespeed"
+  ],
+  "author": "Michael Shick <m@shick.us>",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "jsdom": "^9.5.0"
+  }
+}
