@@ -8,7 +8,7 @@ function ready (fn) {
             window.webkitRequestAnimationFrame ||
             window.msRequestAnimationFrame;
   if (raf) {
-    raf(window.setTimeout(fn, 0));
+    raf(function () {window.setTimeout(fn, 0)});
   } else if (doneLoading()) {
     fn();
   } else {
